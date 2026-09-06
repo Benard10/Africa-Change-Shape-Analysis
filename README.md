@@ -24,6 +24,12 @@ A reproducible geospatial analysis of how WGS 84, Web Mercator, and Equal Earth 
 
 ![Comparison of WGS 84, Web Mercator, and Equal Earth](figures/01_projection_comparison.png)
 
+### Standalone Equal Earth view
+
+This map keeps the same continent colours and design used throughout the analysis while showing land areas in their correct proportions.
+
+![Standalone Equal Earth world map using the project colour theme](figures/00_equal_earth_world.png)
+
 ### Area-statistics summary
 
 ![Table comparing equal-area estimates with areas measured on Web Mercator](figures/02_area_statistics.png)

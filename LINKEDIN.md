@@ -27,23 +27,27 @@ Full analysis and reproducible notebook: **[insert your GitHub repository link]*
 
 ## Suggested carousel order and image previews
 
-### 1. WGS 84, Web Mercator, and Equal Earth comparison
+### 1. Standalone Equal Earth world map
+
+![Standalone Equal Earth world map](figures/00_equal_earth_world.png)
+
+### 2. WGS 84, Web Mercator, and Equal Earth comparison
 
 ![WGS 84, Web Mercator, and Equal Earth comparison](figures/01_projection_comparison.png)
 
-### 2. Area-statistics table
+### 3. Area-statistics table
 
 ![Area-statistics table](figures/02_area_statistics.png)
 
-### 3. Mercator distortion by latitude
+### 4. Mercator distortion by latitude
 
 ![Mercator distortion by latitude](figures/03_mercator_area_distortion.png)
 
-### 4. True-scale overlays on Africa
+### 5. True-scale overlays on Africa
 
 ![True-scale overlays on Africa](figures/04_true_scale_overlays.png)
 
-### 5. UN General Assembly vote
+### 6. UN General Assembly vote
 
 ![UN General Assembly vote](figures/05_un_vote.png)
 
@@ -51,10 +55,10 @@ Full analysis and reproducible notebook: **[insert your GitHub repository link]*
 
 1. Copy only the post text above this carousel section.
 2. Select **Add media → Photo** in LinkedIn.
-3. Upload the five PNG files from the `figures/` folder in the numbered order above.
+3. Upload the six PNG files from the `figures/` folder in the numbered order above.
 4. Add alternative text to each image for accessibility.
 5. Replace the GitHub-link placeholder in the post before publishing.
 
-Markdown image syntax does not transfer images to LinkedIn when pasted; the PNG files must be uploaded separately. Five images fit within LinkedIn's current limit of 20 photos per multi-photo post.
+Markdown image syntax does not transfer images to LinkedIn when pasted; the PNG files must be uploaded separately. Six images fit within LinkedIn's current limit of 20 photos per multi-photo post.
 
 *The area figures are explanatory estimates from generalized Natural Earth 1:110m boundaries.*
