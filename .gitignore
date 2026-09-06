@@ -1,0 +1,16 @@
+# Jupyter and Python-generated files
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# Local environments
+.venv/
+venv/
+env/
+
+# Downloaded source data (the notebook downloads it when needed)
+data/*.zip
+
+# Operating-system files
+.DS_Store
+Thumbs.db
