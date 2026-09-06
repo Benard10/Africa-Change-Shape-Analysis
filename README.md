@@ -30,6 +30,17 @@ This layout projects every continent separately with a local equal-area map, the
 
 ![Continents projected separately at comparable true-area scale](figures/00_continent_true_area_layout.png)
 
+#### How the separate-and-fuse method works
+
+1. **Separate the data:** countries are grouped into Africa, Asia, Europe, North America, South America, and Oceania.
+2. **Project each continent locally:** each group uses its own Lambert Azimuthal Equal Area projection, centred near that continent. An equal-area projection keeps area correct, while a nearby centre helps reduce visible shape changes.
+3. **Keep one scale:** every projected group uses metres. Nothing is enlarged or reduced after projection, so the continent areas remain directly comparable.
+4. **Find each centre:** the code calculates the centre of every continent's projected bounding box.
+5. **Move without resizing:** each group is moved to a chosen display position using `x_new = x + dx` and `y_new = y + dy`. This translation changes location only; it does not change shape or area.
+6. **Fuse the layers:** the translated groups are drawn on one set of axes with the same colours, borders, and scale.
+
+This method reduces the strong edge-of-map shape changes seen in a single world projection, but it does not create a distortion-free world map. Shapes can still change within each local projection. The final gaps, directions, and distances between continents are designed for comparison and are not geographically measurable. Russia is grouped with Asia in this layout so Europe and Asia can be displayed as separate visual regions.
+
 ### Area-statistics summary
 
 ![Table comparing equal-area estimates with areas measured on Web Mercator](figures/02_area_statistics.png)
@@ -81,6 +92,7 @@ The first run downloads Natural Earth 1:110m boundaries to `data/`; later runs u
 
 - `EPSG:6933` supplies equal-area measurements.
 - `EPSG:3857` supplies the areas measured on the Web Mercator map.
+- The fused continent view uses a separate Lambert Azimuthal Equal Area projection for each continent, followed by translation without scaling.
 - Overlay geometries are translated without scaling or rotation.
 - Natural Earth 1:110m boundaries are generalized, so the results are explanatory estimates rather than official statistics.
 - No flat map preserves area, shape, direction, and distance everywhere. Projection choice must follow purpose.
