@@ -6,11 +6,11 @@ A reproducible geospatial analysis of how WGS 84, Web Mercator, and Equal Earth 
 
 ## Key findings
 
-| Region | Equal-area estimate | Area measured on a Web Mercator map | Mercator enlargement |
-|---|---:|---:|---:|
-| Africa | 29.95 million km² | 33.57 million km² | 1.12× |
-| Greenland | 2.21 million km² | 36.29 million km² | 16.44× |
-| United States (all parts) | 9.51 million km² | 21.86 million km² | 2.30× |
+| Region                    | Equal-area estimate | Area measured on a Web Mercator map | Mercator enlargement |
+| ------------------------- | ------------------: | ----------------------------------: | -------------------: |
+| Africa                    |  29.95 million km² |                  33.57 million km² |               1.12× |
+| Greenland                 |   2.21 million km² |                  36.29 million km² |              16.44× |
+| United States (all parts) |   9.51 million km² |                  21.86 million km² |               2.30× |
 
 - Africa is approximately **13.6 times the area of Greenland**.
 - Africa is approximately **3.8 times the area of the contiguous United States** in this generalized dataset.
@@ -63,9 +63,9 @@ The General Assembly adopted `A/80/L.104` as **resolution `A/RES/80/307`** on 4 
 
 The screenshot headed “Decade of culture for sustainable development” belongs to a separate vote held during the same meeting:
 
-| Subject | Draft | Resolution | Vote |
-|---|---|---|---:|
-| Correct the Map | `A/80/L.104` | `A/RES/80/307` | 164–1–6 |
+| Subject                                       | Draft          | Resolution       |      Vote |
+| --------------------------------------------- | -------------- | ---------------- | --------: |
+| Correct the Map                               | `A/80/L.104` | `A/RES/80/307` | 164–1–6 |
 | Decade of Culture for Sustainable Development | `A/80/L.102` | `A/RES/80/308` | 174–1–0 |
 
 ## Why it matters
@@ -106,7 +106,3 @@ The first run downloads Natural Earth 1:110m boundaries to `data/`; later runs u
 - [UN draft resolution A/80/L.104](https://docs.un.org/A/80/L.104)
 - [Natural Earth cultural vectors](https://www.naturalearthdata.com/downloads/110m-cultural-vectors/)
 - [Equal Earth, EPSG:8857](https://epsg.io/8857)
-
-## Social version
-
-See [`LINKEDIN.md`](LINKEDIN.md) for a concise, paste-ready post and suggested carousel order.
