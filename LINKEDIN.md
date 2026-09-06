@@ -27,29 +27,29 @@ Full analysis and reproducible notebook: **[insert your GitHub repository link]*
 
 ## Suggested carousel order and image previews
 
-### 1. True-area continent layout
-
-![Continents projected separately at comparable true-area scale](figures/00_continent_true_area_layout.png)
-
-### 2. WGS 84, Web Mercator, and Equal Earth comparison
+### 1. WGS 84, Web Mercator, and Equal Earth comparison
 
 ![WGS 84, Web Mercator, and Equal Earth comparison](figures/01_projection_comparison.png)
 
+### 2. True-area continent layout
+
+![Continents projected separately at comparable true-area scale](figures/02_continent_true_area_layout.png)
+
 ### 3. Area-statistics table
 
-![Area-statistics table](figures/02_area_statistics.png)
+![Area-statistics table](figures/03_area_statistics.png)
 
 ### 4. Mercator distortion by latitude
 
-![Mercator distortion by latitude](figures/03_mercator_area_distortion.png)
+![Mercator distortion by latitude](figures/04_mercator_area_distortion.png)
 
 ### 5. True-scale overlays on Africa
 
-![True-scale overlays on Africa](figures/04_true_scale_overlays.png)
+![True-scale overlays on Africa](figures/05_true_scale_overlays.png)
 
 ### 6. UN General Assembly vote
 
-![UN General Assembly vote](figures/05_un_vote.png)
+![UN General Assembly vote](figures/06_un_vote.png)
 
 ## How to publish on LinkedIn
 

@@ -28,7 +28,7 @@ A reproducible geospatial analysis of how WGS 84, Web Mercator, and Equal Earth 
 
 This layout projects every continent separately with a local equal-area map, then moves the pieces without resizing them. This gives Australia and the other continents clearer shapes while keeping their areas comparable. It is not a continuous world projection, so the gaps and distances between continents are illustrative rather than geographic.
 
-![Continents projected separately at comparable true-area scale](figures/00_continent_true_area_layout.png)
+![Continents projected separately at comparable true-area scale](figures/02_continent_true_area_layout.png)
 
 #### How the separate-and-fuse method works
 
@@ -43,21 +43,21 @@ This method reduces the strong edge-of-map shape changes seen in a single world 
 
 ### Area-statistics summary
 
-![Table comparing equal-area estimates with areas measured on Web Mercator](figures/02_area_statistics.png)
+![Table comparing equal-area estimates with areas measured on Web Mercator](figures/03_area_statistics.png)
 
 ### Mercator area enlargement by latitude
 
-![Chart showing Mercator area enlargement by latitude](figures/03_mercator_area_distortion.png)
+![Chart showing Mercator area enlargement by latitude](figures/04_mercator_area_distortion.png)
 
 ### True-scale outlines over Africa
 
 The outlines are moved over Africa but never resized. Both panels use the same equal-area map projection.
 
-![True-scale Greenland and contiguous United States outlines over Africa](figures/04_true_scale_overlays.png)
+![True-scale Greenland and contiguous United States outlines over Africa](figures/05_true_scale_overlays.png)
 
 ### UN General Assembly vote
 
-![UN General Assembly vote on the Correct the Map resolution](figures/05_un_vote.png)
+![UN General Assembly vote on the Correct the Map resolution](figures/06_un_vote.png)
 
 The General Assembly adopted `A/80/L.104` as **resolution `A/RES/80/307`** on 4 September 2026 by **164 votes in favour, 1 against, and 6 abstentions**. The United States cast the only vote against. Estonia, Georgia, Lithuania, the Republic of Moldova, Serbia, and Ukraine abstained.
 
