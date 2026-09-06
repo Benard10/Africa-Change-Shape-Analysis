@@ -27,9 +27,9 @@ Full analysis and reproducible notebook: **[insert your GitHub repository link]*
 
 ## Suggested carousel order and image previews
 
-### 1. Standalone Equal Earth world map
+### 1. True-area continent layout
 
-![Standalone Equal Earth world map](figures/00_equal_earth_world.png)
+![Continents projected separately at comparable true-area scale](figures/00_continent_true_area_layout.png)
 
 ### 2. WGS 84, Web Mercator, and Equal Earth comparison
 

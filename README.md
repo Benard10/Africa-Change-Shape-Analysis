@@ -24,11 +24,11 @@ A reproducible geospatial analysis of how WGS 84, Web Mercator, and Equal Earth 
 
 ![Comparison of WGS 84, Web Mercator, and Equal Earth](figures/01_projection_comparison.png)
 
-### Standalone Equal Earth view
+### True-area continent layout
 
-This map keeps the same continent colours and design used throughout the analysis while showing land areas in the correct proportions. Australia looks more stretched than it does on a globe because Equal Earth preserves **area**, not exact **shape**. This is an expected projection trade-off, not a problem with the source data.
+This layout projects every continent separately with a local equal-area map, then moves the pieces without resizing them. This gives Australia and the other continents clearer shapes while keeping their areas comparable. It is not a continuous world projection, so the gaps and distances between continents are illustrative rather than geographic.
 
-![Standalone Equal Earth world map using the project colour theme](figures/00_equal_earth_world.png)
+![Continents projected separately at comparable true-area scale](figures/00_continent_true_area_layout.png)
 
 ### Area-statistics summary
 
