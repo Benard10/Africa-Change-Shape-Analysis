@@ -1,4 +1,4 @@
-# Correct the Map: Measuring Africa's Distortion in World Map Projections
+# Correct the Map: Africa's True Relative Size
 
 A reproducible geospatial analysis of how WGS 84, Web Mercator, and Equal Earth change the visual relationship between Africa and other regions. The project combines maps, area measurements, true-scale overlays, and the 2026 UN vote on the **Correct the Map** resolution.
 
@@ -26,7 +26,7 @@ A reproducible geospatial analysis of how WGS 84, Web Mercator, and Equal Earth 
 
 ### Standalone Equal Earth view
 
-This map keeps the same continent colours and design used throughout the analysis while showing land areas in their correct proportions.
+This map keeps the same continent colours and design used throughout the analysis while showing land areas in the correct proportions. Australia looks more stretched than it does on a globe because Equal Earth preserves **area**, not exact **shape**. This is an expected projection trade-off, not a problem with the source data.
 
 ![Standalone Equal Earth world map using the project colour theme](figures/00_equal_earth_world.png)
 
@@ -69,7 +69,7 @@ The resolution is a recommendation, not a law. It does not ban Mercator, force a
 
 ## Reproduce the analysis
 
-Open [`Africa_map_distortion_analysis.ipynb`](Africa_map_distortion_analysis.ipynb) and run all cells from top to bottom.
+Open [`correct_the_map_africa.ipynb`](correct_the_map_africa.ipynb) and run all cells from top to bottom.
 
 ```bash
 pip install geopandas shapely pyproj matplotlib pandas
